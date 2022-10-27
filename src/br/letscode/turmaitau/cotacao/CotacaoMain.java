@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class CotacaoMain {
 
     public static void main(String[] args) {
-
+        // almir bobo
         String moeda = "Reais";
 
         Scanner scanner = new Scanner(System.in);
