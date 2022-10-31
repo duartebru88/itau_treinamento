@@ -6,6 +6,7 @@ public class CotacaoMain {
 
     public static void main(String[] args) {
 
+        System.out.println("Início");
         String moeda = "Reais";
 
         Scanner scanner = new Scanner(System.in);
@@ -19,6 +20,7 @@ public class CotacaoMain {
         CalculoCotacao calculoCotacao = new CalculoCotacao(moeda, cotacaoDolar);
         calculoCotacao.calcularCotacaoMoeda(valorTotalEmDolar);
 
+        System.out.println("Fim");
         //teste update repositorio git
         
     }
